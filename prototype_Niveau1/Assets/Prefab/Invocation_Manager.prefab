@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6513379635494896482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6513379635494896508}
+  - component: {fileID: 6513379635494896483}
+  - component: {fileID: 6513379635494896509}
+  m_Layer: 0
+  m_Name: Invocation_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6513379635494896508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6513379635494896482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.9, y: 6.03, z: 1.0205086}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6513379635494896483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6513379635494896482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c8d1be15f7f85e44a208f4d9b28d7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Invocation1: {fileID: 6458845378967991708, guid: 7f505fb448ba6c444b70a3834e807106, type: 3}
+  Invocation2: {fileID: 6545042783512583289, guid: d24e2f3a4bc1d0e4f83573b490db4533, type: 3}
+  Invocation3: {fileID: 215063792856967776, guid: 81ff681c3a5de3c439a134771ab12492, type: 3}
+  PersoPrincipale: {fileID: 3988990216422457522, guid: d576bc232cfd4b24284098d87c05ce14, type: 3}
+  ZoneInvocation: {fileID: 6397466302394772817, guid: c586bac399a5d084d82598093a9cd7ca, type: 3}
+  coolDown1: 3
+  coolDown2: 5
+  coolDown3: 10
+  coolDownTimer1: 0
+  coolDownTimer2: 0
+  coolDownTimer3: 0
+--- !u!114 &6513379635494896509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6513379635494896482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e759cf038e4b3914a868da648565121e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Monstre1: {fileID: 919011449777046981, guid: c3e5ea9375b3ba647943c345d591322e, type: 3}
+  ZoneInvocation: {fileID: 0}
+  Timer: 2.9136925
