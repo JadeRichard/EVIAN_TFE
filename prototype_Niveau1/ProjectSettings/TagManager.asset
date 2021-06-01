@@ -12,6 +12,9 @@ TagManager:
   - Invocation
   - InvocationVie
   - monstrevie
+  - destruction
+  - soin
+  - oskour
   layers:
   - Default
   - TransparentFX

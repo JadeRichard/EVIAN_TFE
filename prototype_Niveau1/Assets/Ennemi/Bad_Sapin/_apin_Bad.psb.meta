@@ -861,7 +861,7 @@ ScriptedImporter:
     - {x: 67, y: 14}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -419, y: 1567}
+    uvTransform: {x: -423, y: 1561}
   - name: Layer4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -869,7 +869,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 449
+      x: 451
       y: 2552
       width: 263
       height: 278
@@ -1324,7 +1324,7 @@ ScriptedImporter:
     - {x: 39, y: 34}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -174, y: 985}
+    uvTransform: {x: -174, y: 982}
   - name: ColoSapin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1820,7 +1820,7 @@ ScriptedImporter:
     - {x: 0, y: 38}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -810, y: -615}
+    uvTransform: {x: -803, y: -615}
   - name: ColoBuste
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1829,7 +1829,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 3522
+      y: 3523
       width: 526
       height: 218
     spriteID: 0d4700f49d0d34b42bc3658bdf85418f
@@ -2288,7 +2288,7 @@ ScriptedImporter:
     - {x: 0, y: 25}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -687, y: 2019}
+    uvTransform: {x: -696, y: 2024}
   - name: ColoBrasDroit
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2297,7 +2297,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 3207
+      y: 3208
       width: 639
       height: 307
     spriteID: 7b7d8cd27fb47194ab09431f284c8e5e
@@ -2980,7 +2980,7 @@ ScriptedImporter:
     - {x: 6, y: 60}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -103, y: 1869}
+    uvTransform: {x: -103, y: 1870}
   - name: Layer8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -5988,7 +5988,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 8e57d8d42c392474ba87bc7e28dca761
     layerID: 9
-    mosaicPosition: {x: 449, y: 2552}
+    mosaicPosition: {x: 451, y: 2552}
   - name: ColoSapin
     spriteName: ColoSapin
     isGroup: 0
@@ -6002,14 +6002,14 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 0d4700f49d0d34b42bc3658bdf85418f
     layerID: 7
-    mosaicPosition: {x: 4, y: 3522}
+    mosaicPosition: {x: 4, y: 3523}
   - name: ColoBrasDroit
     spriteName: ColoBrasDroit
     isGroup: 0
     parentIndex: -1
     spriteID: 7b7d8cd27fb47194ab09431f284c8e5e
     layerID: 6
-    mosaicPosition: {x: 4, y: 3207}
+    mosaicPosition: {x: 4, y: 3208}
   - name: Layer8
     spriteName: Layer8
     isGroup: 0

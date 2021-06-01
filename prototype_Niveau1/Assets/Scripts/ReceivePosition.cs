@@ -8,30 +8,41 @@ public class ReceivePosition : MonoBehaviour
     // lie le script invocation au script ReceivePosition
     public invocation invoc;
 
+
     void Start()
     {
-        osc.SetAddressHandler("/position/d", OnReceiveD);
-        osc.SetAddressHandler("/position/g", OnReceiveG);
-        osc.SetAddressHandler("/position/h", OnReceiveH);
-        osc.SetAddressHandler("/position/b", OnReceiveB);
+        osc.SetAddressHandler("/position/1", OnReceive1);
+        osc.SetAddressHandler("/position/2", OnReceive2);
+        osc.SetAddressHandler("/position/3", OnReceive3);
+        osc.SetAddressHandler("/position/4", OnReceive4);
+        osc.SetAddressHandler("/position/5", OnReceive5);
+        osc.SetAddressHandler("/position/6", OnReceive5);
     }
 
-    void OnReceiveD(OscMessage message)
+    void OnReceive1(OscMessage message)
     {
-        invoc.CreateInvocation1();
+        invoc.InvokeandWait(1);
     }
 
-    void OnReceiveG(OscMessage message)
+    void OnReceive2(OscMessage message)
     {
-        invoc.CreateInvocation2();
+        invoc.InvokeandWait(2);
     }
 
-    void OnReceiveH(OscMessage message)
+    void OnReceive3(OscMessage message)
     {
-        invoc.CreateInvocation3();
+        invoc.InvokeandWait(3);
     }
 
-    void OnReceiveB(OscMessage message)
+    void OnReceive4(OscMessage message)
+    {
+        invoc.InvokeandWait(2);
+    }
+    void OnReceive5(OscMessage message)
+    {
+        ///....
+    }
+    void OnReceive6(OscMessage message)
     {
         ///....
     }

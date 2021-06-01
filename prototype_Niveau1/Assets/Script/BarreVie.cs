@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BarreVie : MonoBehaviour
 {
@@ -29,8 +30,9 @@ public class BarreVie : MonoBehaviour
     {
         if (other.gameObject.CompareTag("fin"))
         {
-            Destroy(CharacterObject.gameObject);
-            Destroy(BarreObject.gameObject);
+            /*Destroy(CharacterObject.gameObject);
+            Destroy(BarreObject.gameObject);*/
+            SceneManager.LoadScene("Scene2", LoadSceneMode.Single);
 
         }
 
